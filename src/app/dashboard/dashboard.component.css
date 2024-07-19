@@ -1,0 +1,46 @@
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    
+
+}
+
+.main-row{
+    background-color: #222435;
+}
+.logo-1{
+    background-color: #2e3041;
+}
+.icons{
+    color: lavender;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.icons:hover{
+    background-color:#494b5e ;
+}
+.logo-2{
+    
+    margin-bottom: 600px;
+    
+}
+.icons-right{
+    font-size: 24px;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.card-1{
+    background-color: #2e3041;
+}
+th,td{
+    border-bottom:  1px solid rgb(231, 229, 229);
+    padding: 10px;
+}
+.btn{
+    width: 60px;
+    padding: 0px;
+}
