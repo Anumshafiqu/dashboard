@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component,ViewChild ,  ViewEncapsulation  } from '@angular/core';
+import { Sidebar } from 'primeng/sidebar';
+
 
 @Component({
   selector: 'app-dashboard',
@@ -34,5 +36,10 @@ products= [
 },
 
 
-]
+];
+
+
+
+
+sidebarVisible: boolean = true;
 }

@@ -7,6 +7,13 @@ import { KnobModule } from 'primeng/knob';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonModule } from 'primeng/button';
+import { RippleModule } from 'primeng/ripple';
+import { AvatarModule } from 'primeng/avatar';
+import { SidebarModule } from 'primeng/sidebar';
+import { CardModule } from 'primeng/card';
+import { TableModule } from 'primeng/table';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +25,13 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     KnobModule,
     FormsModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    ButtonModule,
+    RippleModule,
+    AvatarModule,
+    SidebarModule,
+    CardModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

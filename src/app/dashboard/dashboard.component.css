@@ -1,46 +1,114 @@
-
-.logo{
+.logo {
     font-size: 24px;
     font-weight: bold;
-    
+
 
 }
 
-.main-row{
+p-sidebar {
+    position: fixed;
+}
+
+/* .logo-2{
+    margin-left: 200px;
+} */
+::ng-deep .p-sidebar-close {
+    display: none !important;
+    margin-bottom: 0px;
+}
+
+.main-row {
     background-color: #222435;
 }
-.logo-1{
-    background-color: #2e3041;
-}
-.icons{
+
+/* .logo-1{
+    background-color: #222435;
+} */
+.icons {
     color: lavender;
     font-size: 17px;
     margin-bottom: 30px;
 }
-.icons:hover{
-    background-color:#494b5e ;
+
+.logo-2 {
+
+    margin-bottom: 100px;
+
 }
-.logo-2{
-    
-    margin-bottom: 600px;
-    
-}
-.icons-right{
+
+.icons-right {
     font-size: 24px;
 }
-.image{
+
+.image {
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
-.card-1{
+
+.card-1 {
     background-color: #2e3041;
 }
-th,td{
-    border-bottom:  1px solid rgb(231, 229, 229);
+
+th,
+td {
+    border-bottom: 1px solid rgb(231, 229, 229);
     padding: 10px;
 }
-.btn{
+
+.btn {
     width: 60px;
     padding: 0px;
+}
+
+ ::ng-deep .p-sidebar {
+    background-color: #2e3041 !important;
+    
+    color: #fff;
+    
+    width: 300px;
+} 
+
+ ::ng-deep .p-sidebar-header {
+    background-color: #2e3041 !important;
+    
+    color: #fff;
+  
+}
+
+::ng-deep .p-sidebar-footer {
+    background-color: #2e3041 !important;
+    
+    color: #fff;
+    
+} 
+
+ ::ng-deep .p-card {
+    background-color: #2e3041 !important;
+   
+    color: #fff;
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+::ng-deep .p-datatable {
+    background-color: #2e3041 !important;
+    color: white;
+}
+::ng-deep .p-datatable-thead>tr>th {
+    background-color: #2e3041 !important;
+    color: white;
+}
+::ng-deep .p-datatable-tbody>tr {
+    background-color: #2e3041 !important;
+    color: white;
 }
